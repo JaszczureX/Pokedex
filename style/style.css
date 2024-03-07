@@ -1,103 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Neonderthaw&display=swap');
 
 *{
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Madimi One", sans-serif;
 }
 
 body{
-  font-family: 'Lato', sans-serif;
-  background: #101010;
+  background: rgb(13,134,124);
+  background: linear-gradient(72deg, rgba(13,134,124,1) 25%, rgba(22,219,103,1) 79%);
 }
 
 #container{
-  width: 100%;
-  height: 800px;
+  width: 60%;
+  height: 500px;
+  margin-left: 20%;
 }
 
-header{
-  font-family: "Neonderthaw", cursive;
-  width: 100%;
-  height: 100px;
-  border: 1px solid #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #101010;
-}
-
-h1{
-  color: #f000e4;
-  font-size: 50px;
-  font-weight: bold;
-  animation: h1-textAnimation 3s infinite ease-in;
-}
-
-@keyframes h1-textAnimation {
-  0%{
-    text-shadow: 2px 2px #f000e470;
-  }
-  25%{
-    text-shadow: 4px 4px #f000e470;
-  }
-  50%{
-    text-shadow: 2px 2px #f000e470;
-  }
-  75%{
-    text-shadow: 4px 4px #f000e470;
-  }
-  100%{
-    text-shadow: 2px 2px #f000e470;
-  }
-}
-
-#app{
-  width: 100%;
-  height: 600px;
-  border: 1px solid #000;
-}
-
-#header-app{
-  width: 100%;
-  height: 50px;
-  border: 1px solid #fff;
-}
-
-@media only screen and (max-width:1200px){
-  #bufor{
-    flex-direction: column;
-  }
-  .chooseGame-button{
-    min-width: 20%;
-  }
-}
-
-.chooseGame-button{
-  width: 10%;
-  height: 150px;
-  border: 1px solid #fff;
+.card{
+  width: 15%;
+  height: 275px;
+  float: left;
+  margin-left:5%;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px 2px #00000080;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  flex-direction: column;
+  background: #d7f7dbd0;
 }
 
-footer{
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  border: 1px solid #000;
+.card img{
+  width: 70%;
+  height: 130px;
+  z-index: 1;
 }
 
-#bufor {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+.card span{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card h2{
+  text-align: center;
+}
+
+#green{
+  background:#d7f7dbd0;
+}
+
+#red{
+  background: #fedfdb;
+}
+
+#blue{
+  background: #D7EFFC;
 }
