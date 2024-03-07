@@ -1,39 +1,26 @@
-const AppScreen = document.getElementById("app");
+const PokemonList = Pokemons;
 
-const RouletteAtributes = [
-    {
-        Id: 0,
-        headerContent: 'MainMenu',
-        div2Content: '',
-    }
-];
+const tableLength = PokemonList.length;
+const container = document.getElementById("container");
 
-const RenderGames = () => {
-    AppScreen.innerHTML = `
-        <div id="bufor">
-            <div class="chooseGame-button" id="game1">
-                Gra 1
-            </div>
-            <div class="chooseGame-button" id="game2">
-                Gra 2
-            </div>
-            <div class="chooseGame-button" id="game3">
-                Gra 3
-            </div>
-        </div>
+const creatingCards = () => {
+  for(let i = 0; i < tableLength; i++){
+    //console.log(PokemonList[i]);
+    const newDiv = document.createElement("div");
+    newDiv.className = "card";
+    newDiv.innerHTML = `
+      <img src="${PokemonList[i].img}">
+      <span class="tag-pokemon">#${PokemonList[i].tag}</span>
+      <span class="name-pokemon">${PokemonList[i].name}</span>
+      <span class="type-pokemon">type: ${PokemonList[i].type}</span>
     `;
-};
+    newDiv.id = `${PokemonList[i].bgColor}`
+    container.appendChild(newDiv);
+  }
+}
 
-const Roulette = () => {
-    const gameRouletteButton = document.getElementById("game1");
-    gameRouletteButton.addEventListener("click", () => {
+const App = () => {
+  creatingCards();
+}
 
-    })
-};
-
-const Game = () => {
-    RenderGames();
-    Roulette();
-};
-
-document.addEventListener("DOMContentLoaded", Game);
+window.onload = App;
