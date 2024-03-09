@@ -1,28 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Neonderthaw&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Neonderthaw&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Madimi One", sans-serif;
 }
 
-body{
-  background: rgb(13,134,124);
-  background: linear-gradient(72deg, rgba(13,134,124,1) 25%, rgba(22,219,103,1) 79%);
+body {
+  background: rgb(13, 134, 124);
+  background: linear-gradient(
+    72deg,
+    rgba(13, 134, 124, 1) 25%,
+    rgba(22, 219, 103, 1) 79%
+  );
 }
 
-#container{
+#container {
   width: 60%;
   height: 500px;
   margin-left: 20%;
 }
 
-.card{
+.card {
   width: 15%;
   height: 275px;
   float: left;
-  margin-left:5%;
+  margin-left: 5%;
   margin-top: 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 8px 2px #00000080;
@@ -33,29 +37,53 @@ body{
   background: #d7f7dbd0;
 }
 
-.card img{
+.card img {
   width: 70%;
   height: 130px;
   z-index: 1;
 }
 
-.card span{
+.card span {
   text-align: center;
   margin-top: 10px;
 }
 
-.card h2{
+.card h2 {
   text-align: center;
 }
 
-#green{
-  background:#d7f7dbd0;
+.green {
+  background: #b9f5c0d0;
 }
 
-#red{
-  background: #fedfdb;
+.red {
+  background: #ee9185;
 }
 
-#blue{
-  background: #D7EFFC;
+.blue {
+  background: #bbe7ff;
+}
+
+.darkgreen {
+  background: #7afd87d0;
+}
+
+.purple {
+  background: #b97fc9;
+}
+
+.pink {
+  background: #f392c2;
+}
+
+.brown {
+  background: #d8be6a;
+}
+
+.gray {
+  background: #cecdcd;
+}
+
+.yellow {
+  background: #c0df3a;
 }
