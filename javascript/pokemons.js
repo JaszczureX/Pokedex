@@ -622,5 +622,21 @@ const Pokemons = [
     img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png",
     tag: "078",
     bgColor: "red",
-  }
+  },
+  {
+    Id: 79,
+    name: "Slowpoke",
+    type: "Water/Psychic",
+    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png",
+    tag: "079",
+    bgColor: "pink",
+  },
+  {
+    Id: 80,
+    name: "Slowbro",
+    type: "Water/Psychic",
+    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png",
+    tag: "080",
+    bgColor: "pink",
+  },
 ];
