@@ -51,7 +51,7 @@ const Pokemons = [
     Id: 7,
     name: "Squirtle",
     type: "Water",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.pngl",
+    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
     tag: "007",
     bgColor: "blue",
   },
