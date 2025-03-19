@@ -14,7 +14,7 @@ const creatingCards = () => {
       <span class="name-pokemon">${PokemonList[i].name}</span>
       <span class="type-pokemon">type: ${PokemonList[i].type}</span>
     `;
-    newDiv.id = `${PokemonList[i].bgColor}`
+    newDiv.className = `${PokemonList[i].bgColor}`
     container.appendChild(newDiv);
   }
 }
