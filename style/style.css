@@ -57,33 +57,33 @@ body {
 }
 
 .red {
-  background: #ee9185;
+  background: #ee9185bd;
 }
 
 .blue {
-  background: #bbe7ff;
+  background: #bbe7ffbe;
 }
 
 .darkgreen {
-  background: #7afd87d0;
+  background: #7afd87b6;
 }
 
 .purple {
-  background: #b97fc9;
+  background: #b97fc9bd;
 }
 
 .pink {
-  background: #f392c2;
+  background: #f392c3be;
 }
 
 .brown {
-  background: #d8be6a;
+  background: #d8be6ac7;
 }
 
 .gray {
-  background: #cecdcd;
+  background: #cecdcdd3;
 }
 
 .yellow {
-  background: #c0df3a;
+  background: #c1df3abd;
 }
