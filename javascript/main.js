@@ -7,7 +7,6 @@ const creatingCards = () => {
   for (let i = 0; i < tableLength; i++) {
     //console.log(PokemonList[i]);
     const newDiv = document.createElement("div");
-    newDiv.className = "card";
     newDiv.innerHTML = `
       <img src="${PokemonList[i].img}">
       <span class="tag-pokemon">#${PokemonList[i].tag}</span>
